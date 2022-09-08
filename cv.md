@@ -1,5 +1,5 @@
 # Maksim Aniska
-<img src = "https://avatars.githubusercontent.com/u/106627293?v=4" width = "240" height = "240" alt = "still young Maksim Aniska photo" />
+<img src = "https://avatars.githubusercontent.com/u/106627293?v=4" width = "240" height = "240" alt = "still young Maksim Aniska photo">
 
 ## Some facts about me
 Born in 1982. I am 40 this year.
@@ -31,15 +31,15 @@ I have good communication skills, I have a great desire to develop and learn new
 
 <a href = "https://www.efset.org/cert/reYjvv">**Certificate EF SET C1 Advanced**</a>
 
-<img src = "https://ibeton.by/wp-content/uploads/EFSET_MaksimAniska.png" href = "https://www.efset.org/cert/reYjvv" width = "330" height = "330" float = "left">
+<img src = "https://ibeton.by/wp-content/uploads/EFSET_MaksimAniska.png" href = "https://www.efset.org/cert/reYjvv" width = "330" height = "330" alt = "EF SET sertificate" float = "left">
 
 <a href = "https://stepik.org/certificate/756e53216330284945e45bdf3ec116229277adf0.pdf">**Stepik JavaScript courses Certificate**</a>
 
-<img src = "https://stepik.org/certificate/756e53216330284945e45bdf3ec116229277adf0.png?resolution=small" float = "left">
+<img src = "https://stepik.org/certificate/756e53216330284945e45bdf3ec116229277adf0.png?resolution=small" alt = "Stepik courses sertificate" float = "left">
 
 <a href = "https://stepik.org/certificate/756e53216330284945e45bdf3ec116229277adf0.pdf">**RS School Stage0 courses Certificate**</a>
 
-<img src = "https://ibeton.by/wp-content/uploads/RS_school_cerificate_stage0.png" width = "650" height = "400" float = "left">
+<img src = "https://ibeton.by/wp-content/uploads/RS_school_cerificate_stage0.png" width = "650" height = "400" alt = "RS School sertificate" float = "left">
 
 
 **Examples of my code**
