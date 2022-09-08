@@ -19,6 +19,7 @@ I am married and have a son, Matthew. This year he will be 2 years old.
 My goal is to move with my family from Belarus.
 
 ## Skills
+I trying to do my best in HTML, CSS and JS to start Front-end career soon.
 
 I am well organized, structured, disciplined and motivated.
 
@@ -30,14 +31,15 @@ I have good communication skills, I have a great desire to develop and learn new
 
 <a href = "https://www.efset.org/cert/reYjvv">**Certificate EF SET C1 Advanced**</a>
 
-
 <img src = "https://ibeton.by/wp-content/uploads/EFSET_MaksimAniska.png" href = "https://www.efset.org/cert/reYjvv" width = "330" height = "330" float = "left">
-
 
 <a href = "https://stepik.org/certificate/756e53216330284945e45bdf3ec116229277adf0.pdf">**Stepik JavaScript courses Certificate**</a>
 
-
 <img src = "https://stepik.org/certificate/756e53216330284945e45bdf3ec116229277adf0.png?resolution=small" float = "left">
+
+<a href = "https://stepik.org/certificate/756e53216330284945e45bdf3ec116229277adf0.pdf">**RS School Stage0 courses Certificate**</a>
+
+<img src = "https://ibeton.by/wp-content/uploads/RS_school_cerificate_stage0.png" width = "650" height = "400" float = "left">
 
 
 **Examples of my code**
