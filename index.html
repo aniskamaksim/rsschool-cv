@@ -1,13 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="/style.css">
-<title>Document</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Maksim Aniska CV</title>
 </head>
 <body>
-There is 5 spaces. Enjoy it.
+<div class = "header">
+    <ul id="navigation">
+        <li>Useless but working menubar:</li>
+        <li><a href="#call-viber-telegram">Contacts</a></li>
+        <li><a href="#some-facts-about-me">About me</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#languages">Languages</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#examples-of-my-code">Code</a></li>
+      </ul>
+</div>
+    <div class="main">
+        <div class="container">
+          <div class="row">
+            <div class="col-1-3">
+                <h1>Maksim Aniska</h1>
+                <p><img class = "avatar_img" src="https://avatars.githubusercontent.com/u/106627293?v=4" alt="still young Maksim Aniska photo"></p>
+            </div>
+            <div class="col-2-3"><h3 id="call-viber-telegram">Contact me:</h3>
+                <span class = "call"><b>Call</b></span>\<span class = "viber"><b>Viber</b></span>\<span class = "tg"><b>Telegram</b></span><br>
+                    <ul>
+                    <li>+375 29 63 73 666</li>
+                    <li>+375 29 63 13 666</li>
+                </ul>
+                <b>Or click:</b><br>
+                <ul>
+                <li>Email <a href = "mailto:aniskamaksim@gmail.com">aniskamaksim@gmail.com</a></li>
+                <li>GitHub <a href = "https://github.com/aniskamaksim" target="_blank">@aniskamaksim</a></li>
+                <li>Discord <a href = "https://discordapp.com/users/983811621203890197/" target="_blank">@maksim-aniska#8746</a></li>
+                </ul><br>
+                </div>
+          </div>
+          <div class="row">
+            <div class="col-1-3"><h2 id="some-facts-about-me"><br><br><br><br><br><br>Some facts about me</h2> </div>
+            <div class="col-2-3">
+                <p>Born in 1982. I am 40 this year.</p>
+                <p>1999 - 2002 Studied at the Belarusian State University at the Faculty of Journalism (did not graduate)</p>
+                <p>2002 - 2003 Served in the army.</p>
+                <p>2006 - 2021 Worked and did business in the construction sector (concrete production) and in the field of cargo transportation.</p>
+                <p>I started as a foreman of the plant site, then became a sales manager, head of the sales department, the last position was the deputy director of the company.</p>
+                <p>I have my own business related to cargo transportation, which currently operates autonomously, without my participation.</p>
+                <p>I am married and have a son, Matthew. This year he will be 2 years old.</p>
+                <p>My goal is to move with my family from Belarus.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-1-3"> <br><br><h2 id="skills">Skills</h2></div>
+            <div class="col-2-3"><p><img class = "bycenter" src = "https://www.clipartmax.com/png/full/440-4409582_rather-th-html-css-js-icon-png.png" alt="js html css logo"></p>
+                <p>I'm trying to do my best in HTML, CSS, Javascript, started learning React, studying at online courses Rolling Scopes JS/FE Stage 1</p>
+                <p>I am well organized, structured, disciplined and motivated.</p>
+                <p>I have good communication skills, I have a great desire to develop and learn new things.</p></div>
+          </div>
+          <div class="row">
+            <div class="col-1-3"><h2 id="languages"><br>Languages</h2></div>
+            <div class="col-2-3">
+                <p>Belorussian - native</p>
+                <p>Russian - native</p>
+                <p>English - B2 (upper-intermediate)</p></div>
+          </div>
+          <div class="row">
+            <div class="col-1-3"><h2 id="achievements">Achievements</h2></div>
+            <div class="col-2-3"> <p><a href="https://www.efset.org/cert/reYjvv" target="_blank">Certificate EF Standart English Test (C1 Advanced)</a></p>
+            <p><a href="https://stepik.org/certificate/756e53216330284945e45bdf3ec116229277adf0.pdf" target="_blank">Stepik JavaScript courses Certificate</a></p>
+            <p><a href="https://app.rs.school/certificate/cgqtroz9" target="_blank">RS School Stage0 Certificate</a></p></div>
+          </div>
+          <div class="row">
+            <div class="col-1-3"><br><br><br><br><br><br><br><h2 id="examples-of-my-code">Examples of my code</h2></div>
+            <div class="col-2-3"><pre><code><span class="hljs-meta">'use strict'</span>;
+                <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">collectAllNumbersInInterval</span>(<span class="hljs-params">firstNumber, secondNumber</span>) </span>{
+                    <span class="hljs-keyword">let</span> result = <span class="hljs-string">" "</span>; <span class="hljs-comment"></span>
+                    <span class="hljs-keyword">if</span> (firstNumber &gt; secondNumber) {
+                        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = firstNumber; i &gt;= secondNumber; i--)
+                            result += firstNumber-- + <span class="hljs-string">" "</span>;
+                        firstNumber--;
+                    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (secondNumber &gt; firstNumber) {
+                        <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = secondNumber; i &gt;= firstNumber; i--)
+                            result += secondNumber-- + <span class="hljs-string">" "</span>;
+                        secondNumber--;
+                    } <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (firstNumber === secondNumber) {
+                        result = firstNumber;
+                    }
+                    <span class="hljs-keyword">return</span> result;
+                }
+                </code></pre>
+                <pre><code><span class="hljs-meta">"use strict"</span>;
+                <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">stringOfPrimes</span>(<span class="hljs-params">givenNumber</span>) </span>{
+                <span class="hljs-keyword">const</span> sieveOfEratosthenes = [];
+                <span class="hljs-keyword">const</span> result = [];
+                    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> i = <span class="hljs-number">2</span>; i &lt; givenNumber; i++) {
+                            <span class="hljs-keyword">if</span> (!sieveOfEratosthenes[i]) {
+                                result.push(i);
+                                <span class="hljs-keyword">for</span> (<span class="hljs-keyword">let</span> j = i * <span class="hljs-number">2</span>; j &lt; givenNumber; j += i) {
+                                    sieveOfEratosthenes[j] = <span class="hljs-literal">true</span>;
+                                }
+                            }
+                        }
+                        <span class="hljs-keyword">return</span> result.join(<span class="hljs-string">" "</span>);
+                    }
+                    </code></pre></div>
+          </div>
+        </div>
+    </div>
+    <div class = "footer">
+        <h3><i>&copy;2022 That's all, Folks!</i></h3>
+</div>
 </body>
 </html>
