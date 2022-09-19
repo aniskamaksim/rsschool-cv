@@ -38,6 +38,7 @@ h1 {
   float: left;
   font-family: 'Courier New', Courier, monospace;
   border-bottom-style: outset;
+  background-color: rgb(244, 244, 244);
 }
 .footer {
   position: static;
