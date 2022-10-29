@@ -1,68 +1,195 @@
 body {
-  margin: 1%;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.2;
-  text-align: justify;
+  font-family: 'Roboto Flex', sans-serif;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+  margin-right: 2%;
 }
-#navigation {
-  font-family: FreeMono, monospace;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 1.2;
-  text-align: right;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: blueviolet;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 400px;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 300px;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 300px;
+}
+ul, li {
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-#navigation li {
-  display: inline;
+img {
+  background: none;
 }
-h1 {
-  font-family: FreeMono, monospace;
+/*~~~~~~~~~~~~~~~~~~~~~NAVIGATION~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.navigation {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
 }
-.col-1-3 {
-  position: relative;
-  width: 33.3333333333%;
-  float: left;
-  font-family: FreeMono, monospace;
-  text-decoration: yellow;
+.nav-menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+}
+.nav-menu__link {
+  color: inherit;
+  text-decoration: none;
+  transition: 1s;
   text-align: center;
-  vertical-align: middle;
+}
+.nav-menu__link:hover {
+  color: rebeccapurple;
+  text-decoration: none;
+  transform: scale(2);
+}
+.nav-menu__item {
+  transition: 200ms;
+}
+.nav-menu__item:hover {
+  transform: scale(1.2);
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MAIN BLOCK~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.body-wrapper {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+.section {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.contacts-left {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.col-2-3 {
-  position: relative;
-  width: 66.6666666667%;
-  float: left;
-  font-family: 'Courier New', Courier, monospace;
-  border-bottom-style: outset;
-  background-color: rgb(244, 244, 244);
-}
-.footer {
-  position: static;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: rgba(240, 39, 39, 0.771);
+.title__name {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
   text-align: center;
+  margin-top: 4%;
 }
-.bycenter {
-  margin-left: 400px;
-  width: 280px;
-  height: 140px;
-}
-.call{
-  color: green;
-}
-.viber{
-  color: purple;
-}
-.tg{
-  color: blue;
-}
-.avatar_img {
+.avatar__img {
   width: 200px;
   height: 200px;
+}
+.contacts-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 75%;
+  border-radius: 10px;
+  line-height: 1.6;
+  background-color: aliceblue;
+}
+.call-viber-tg {
+  margin-bottom: 2%;
+  text-align: center;
+}
+.call {
+color: green;
+}
+.viber {
+color: purple;
+}
+.tg {
+  color: blue;
+}
+.direct-call {
+  margin-bottom: 2%;
+  text-align: center;
+}
+.logo__contacts {
+  background: transparent;
+}
+.logo-attribute {
+  display: flex;
+  flex-direction: row;
+  flex: 1 1 auto;
+}
+.contacts {
+  margin-bottom: 2%;
+  text-align: center;
+}
+.contacts__logos-and-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+.email__logo, .github__logo, .discord__logo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.contacts__elements {
+  display: flex;
+  flex-direction: row;
+  margin-left: 3%;
+}
+.left-title {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.main-section {
+  margin-top: 1%;
+  padding-left: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  line-height: 1;
+}
+.contact-section {
+  align-items: center;
+}
+.bycenter {
+  width: 33%;
+  height: 40%;
+  align-self: center;
+}
+.achievements-layot {
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+}
+.certificates {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.certificates__items {
+  display: flex;
+  flex-direction: column;
+  padding-top: 5%;
+  margin-right: 10%;
+}
+.cert__img {
+  width: 200px;
+  height: 200px;
+  border: solid 1px darkgray;
+  border-radius: 10px;
 }

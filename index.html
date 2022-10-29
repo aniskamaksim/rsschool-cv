@@ -1,205 +1,132 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" type="text/css" />
-    <title>Maksim Aniska CV</title>
-  </head>
-  <body>
-    <div class="header">
-      <ul id="navigation">
-        <li>Useless but working menubar:</li>
-        <li><a href="#call-viber-telegram">Contacts</a></li>
-        <li><a href="#some-facts-about-me">About me</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#languages">Languages</a></li>
-        <li><a href="#achievements">Achievements</a></li>
-        <li><a href="#examples-of-my-code">Code</a></li>
-      </ul>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400;8..144,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href = "./style.css">
+    <title>Document</title>
+</head>
+<header>
+    <div class="navigation">
+        <ul class="nav-menu">
+            <li class="nav-menu__item"><a href="#contacts" class="nav-menu__link">Contacts</a></li>
+            <li class="nav-menu__item"><a href="#some-facts-about-me" class="nav-menu__link">About me</a></li>
+            <li class="nav-menu__item"><a href="#skills" class="nav-menu__link">Skills</a></li>
+            <li class="nav-menu__item"><a href="#languages" class="nav-menu__link">Languages</a></li>
+            <li class="nav-menu__item"><a href="#achievements" class="nav-menu__link">Achievements</a></li>
+            <li class="nav-menu__item"><a href="#code" class="nav-menu__link">Code</a></li>
+        </ul>
     </div>
-    <div class="main">
-      <div class="container">
-        <div class="row">
-          <div class="col-1-3">
-            <h1>Maksim Aniska</h1>
-            <p>
-              <img
-                class="avatar_img"
-                src="https://avatars.githubusercontent.com/u/106627293?v=4"
-                alt="still young Maksim Aniska photo"
-              />
-            </p>
-          </div>
-          <div class="col-2-3">
-            <h3 id="call-viber-telegram">Contact me:</h3>
-            <span class="call"><b>Call</b></span
-            >\<span class="viber"><b>Viber</b></span
-            >\<span class="tg"><b>Telegram</b></span
-            ><br />
-            <ul>
-              <li>+375 29 63 73 666</li>
-              <li>+375 29 63 13 666</li>
-            </ul>
-            <b>Or click:</b><br />
-            <ul>
-              <li>
-                Email
-                <a href="mailto:aniskamaksim@gmail.com"
-                  >aniskamaksim@gmail.com</a
-                >
-              </li>
-              <li>
-                GitHub
-                <a href="https://github.com/aniskamaksim" target="_blank"
-                  >@aniskamaksim</a
-                >
-              </li>
-              <li>
-                Discord
-                <a
-                  href="https://discordapp.com/users/983811621203890197/"
-                  target="_blank"
-                  >@maksim-aniska#8746</a
-                >
-              </li>
-            </ul>
-            <br />
-          </div>
+</header>
+<body>
+    <div class="body-wrapper">
+        <div class = "section">
+            <div class="contacts-left">
+                   <h1 class ="title__name" >Maksim Aniska</h1>
+                   <img class="avatar__img" src="https://avatars.githubusercontent.com/u/106627293?v=4" alt="still young Maksim Aniska photo">
+            </div>
+            <div class="contacts-right main-section contact-section">
+                <h3 class="contacts" id = "contacts">Contact me:</h3>
+                <div class = "call-viber-tg">
+                    <span class="call"><strong>Call</strong></span> \ <span class="viber"><strong>Viber</strong></span> \ <span class="tg"><strong>Telegram</strong></span>
+                </div>
+                <ul class = "direct-call" >
+                    <li><a href = "tel:+375 29 63 73 666">+375 29 63 73 666</a></li>
+                    <li><a href = "tel:+375 29 63 73 666">+375 29 63 13 666</a></li>
+                </ul>
+               <div class = "contacts">
+                    <h3 class = "contacts">Or click:</h3>
+               </div>
+               <div class = "contacts__logos-and-links">
+                    <div class = "email__logo">
+                        <img class = "logo__contacts" src = "./assets/icons/blue-email-box-circle-png-transparent-icon-2.png" width="30px" height="30px" alt = "email icon">
+                        <div class = "contacts__elements"><a href="mailto:aniskamaksim@gmail.com">aniskamaksim@gmail.com</a></div>
+                    </div>
+                    <div class = "github__logo">
+                        <img class = "logo__contacts" src = "./assets/icons/GitHub-Mark.png" width="30px" height="30px" alt = "GitHub icon">
+                        <div class = "contacts__elements"><a href="https://github.com/aniskamaksim" target="_blank">@aniskamaksim</a></div>
+                    </div>
+                    <div class = "discord__logo">
+                        <img class = "logo__contacts" src = "./assets/icons/discord-logo-icon-editorial-free-vector.webp" width="30px" height="30px" alt = "Discord icon">
+                        <div class = "contacts__elements"><a href="https://discordapp.com/users/983811621203890197/" target="_blank">@maksim-aniska#8746</a></div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-1-3">
-            <h2 id="some-facts-about-me">
-              <br /><br /><br /><br /><br /><br />Some facts about me
-            </h2>
-          </div>
-          <div class="col-2-3">
-            <p>Born in 1982. I am 40 this year.</p>
-            <p>
-              1999 - 2002 Studied at the Belarusian State University at the
-              Faculty of Journalism (did not graduate)
-            </p>
-            <p>2002 - 2003 Served in the army.</p>
-            <p>
-              2006 - 2021 Worked and did business in the construction sector
-              (concrete production) and in the field of cargo transportation.
-            </p>
-            <p>
-              I started as a foreman of the plant site, then became a sales
-              manager, head of the sales department, the last position was the
-              deputy director of the company.
-            </p>
-            <p>
-              I have my own business related to cargo transportation, which
-              currently operates autonomously, without my participation.
-            </p>
-            <p>
-              I am married and have a son, Matthew. This year he will be 2 years
-              old.
-            </p>
-            <p>My goal is to move with my family from Belarus.</p>
-          </div>
+        <div class = "section">
+            <div class = "section section-two">
+                <div class="contacts-left">
+                    <h2 class = "left-title">Some facts about me</h2>
+                </div>
+                <div class="contacts-right main-section" id="some-facts-about-me">
+                    <p>Born in 1982. I am 40 this year.</p>
+                    <p>1999 - 2002 Studied at the belarusian State University at the Faculty of Journalism (did not graduate)</p>
+                    <p>2002 - 2003 Served in the army.</p>
+                    <p>2006 - 2021 Worked and did business in the construction sector(concrete production) and in the field of cargo transportation.</p>
+                    <p>I started as a foreman of the plant site, then became a sales manager, head of the sales department, the last position was
+                    the deputy director of the company.</p>
+                    <p>I have vast experience (including my own business) in personnel management, building business processes,
+                    launching production, successfully opening new directions.</p>
+                    <p>I am married and have a son, Matthew. He is 2 years old.</p>
+                    <p>My goal is to change my life and the life of my family, who have suffered enough from my previous work and the nerves and
+                    stresses associated with it. Also, my goal is to get civilized and understandable working conditions in terms of
+                    setting tasks and remuneration.</p>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-1-3">
-            <br /><br />
-            <h2 id="skills">Skills</h2>
-          </div>
-          <div class="col-2-3">
-            <p>
-              <img class="bycenter" src="https://www.clipartmax.com/png/full/440-4409582_rather-th-html-css-js-icon-png.png" alt="js html css logo"/>
-            </p>
-            <p>
-              I'm trying to do my best in HTML, CSS, Javascript, started
-              learning React, studying at online courses Rolling Scopes JS/FE
-              Stage 1 at the moment.
-            </p>
-            <p>I am well organized, structured, disciplined and motivated.</p>
-            <p>
-              I have good communication skills, team work and management experience. I have a great desire to develop
-              and learn new things.
-            </p>
-          </div>
+        <div class = "section">
+            <div class = "section section-two">
+                <div class="contacts-left">
+                    <h2 class = "left-title">Skills</h2>
+                </div>
+                <div class="contacts-right main-section" id = "skills">
+                    <img class="bycenter" src="https://www.clipartmax.com/png/full/440-4409582_rather-th-html-css-js-icon-png.png" alt="js html css logo"/>
+                    <p>I'm trying to do my best in HTML, CSS, Javascript, started learning React, studying at online courses Rolling Scopes JS/FE Stage 1 at the moment.</p>
+                    <p>I am well organized, structured, disciplined and motivated.</p>
+                    <p>I have good communication skills, team work and management experience. I have a great desire to develop and learn new things.</p>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-1-3">
-            <h2 id="languages"><br />Languages</h2>
-          </div>
-          <div class="col-2-3">
-            <p>Belorussian - native</p>
-            <p>Russian - native</p>
-            <p>English - B2 (upper-intermediate)</p>
-          </div>
+        <div class = "section">
+            <div class = "section section-two">
+                <div class="contacts-left">
+                    <h2 class = "left-title">Languages</h2>
+                </div>
+                <div class="contacts-right main-section" id="languages">
+                    <p>English - b2 (upper-intermediate)</p>
+                    <p>Belorussian - native</p>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-1-3"><h2 id="achievements">Achievements</h2></div>
-          <div class="col-2-3">
-            <p>
-              <a href="https://www.efset.org/cert/reYjvv" target="_blank"
-                >Certificate EF Standart English Test (C1 Advanced)</a
-              >
-            </p>
-            <p>
-              <a
-                href="https://stepik.org/certificate/756e53216330284945e45bdf3ec116229277adf0.pdf"
-                target="_blank"
-                >Stepik JavaScript courses Certificate</a
-              >
-            </p>
-            <p>
-              <a
-                href="https://app.rs.school/certificate/cgqtroz9"
-                target="_blank"
-                >RS School Stage0 Certificate</a
-              >
-            </p>
-          </div>
+        <div class = "section">
+            <div class = "section section-two">
+                <div class="contacts-left">
+                    <h2 class = "left-title">Achievements</h2>
+                </div>
+                <div class="contacts-right main-section achievements-layot" id="Achievements">
+                    <div class = "certificates">
+                        <div class = "certificates__items">
+                            <img class = "cert__img" src = "./assets/img/cert_efset.png" alt = "EF SET certificate">
+                            <p><a class = "body-links" href = "https://www.efset.org/cert/reYjvv" target="_blank">C1 EF SET Certificate</a></p>
+                        </div>
+                        <div class = "certificates__items">
+                            <img class = "cert__img" src = "./assets/img/cert_rsschool.png" alt = "RS School certificate">
+                            <p><a class = "body-links" href = "https://app.rs.school/certificate/cgqtroz9" target="_blank">RSSchool Stage 0 Certificate</a></p>
+                        </div>
+                        <div class = "certificates__items">
+                            <img class = "cert__img" src = "./assets/img/cert_stepik.png" alt = "Stepik online courses certificate">
+                            <p><a class = "body-links" href = "https://stepik.org/certificate/756e53216330284945e45bdf3ec116229277adf0.pdf" target="_blank">Stepik online courses Certificate</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="row">
-          <div class="col-1-3">
-            <br /><br /><br /><br /><br /><br /><br />
-            <h2 id="examples-of-my-code">Examples of my code</h2>
-          </div>
-          <div class="col-2-3">
-            <pre><code>function collectAllNumbersInInterval(firstNumber, secondNumber) {
-                let result = " ";
-                if (firstNumber &gt; secondNumber) {
-                    for (let i = firstNumber; i &gt;= secondNumber; i--) {
-                        result += firstNumber-- + " ";
-                    }
-                } else if (secondNumber &gt; firstNumber) {
-                    for (let i = secondNumber; i &gt;= firstNumber; i--) {
-                        result += secondNumber-- + " ";
-                    }
-                } else {
-                    result = firstNumber;
-                }
-                return result;
-            }
-                }
-                </code></pre>
-            <pre><code>function stringOfPrimes(givenNumber) {
-                const sieveOfEratosthenes = [];
-                const result = [];
-                for (let i = 2; i &lt; givenNumber; i++) {
-                    if (!sieveOfEratosthenes[i]) {
-                        result.push(i);
-                        for (let j = i * 2; j &lt; givenNumber; j += i) {
-                            sieveOfEratosthenes[j] = true;
-                        }
-                    }
-                }
-                return result.join(" ");
-            }
-                    </code></pre>
-          </div>
-        </div>
-      </div>
     </div>
-    <div class="footer">
-      <h3><i>&copy;2022 That's all, Folks!</i></h3>
-    </div>
-    <script src="./index.js"></script>
-  </body>
+</body>
+<footer>
+</footer>
 </html>
