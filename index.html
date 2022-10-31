@@ -6,9 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400;8..144,500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href = "./style.css">
-    <title>Document</title>
+    <title>Maksim Aniska CV</title>
 </head>
 <header>
     <div class="navigation">
@@ -84,7 +87,12 @@
                     <h2 class = "left-title">Skills</h2>
                 </div>
                 <div class="contacts-right main-section" id = "skills">
-                    <img class="bycenter" src="https://www.clipartmax.com/png/full/440-4409582_rather-th-html-css-js-icon-png.png" alt="js html css logo"/>
+                    <div class = "circle-skills">
+                        <div class = "circle-skills__html">html</div>
+                        <div class = "circle-skills__css">css</div>
+                        <div class = "circle-skills__js">js</div>
+                        <div class = "circle-skills__git"><div class = "git-word">git</div></div>
+                    </div>
                     <p>I'm trying to do my best in HTML, CSS, Javascript, started learning React, studying at online courses Rolling Scopes JS/FE Stage 1 at the moment.</p>
                     <p>I am well organized, structured, disciplined and motivated.</p>
                     <p>I have good communication skills, team work and management experience. I have a great desire to develop and learn new things.</p>
@@ -98,7 +106,7 @@
                 </div>
                 <div class="contacts-right main-section" id="languages">
                     <p>English - b2 (upper-intermediate)</p>
-                    <p>Belorussian - native</p>
+                    <p>Belarusian - native</p>
                 </div>
             </div>
         </div>
@@ -107,26 +115,71 @@
                 <div class="contacts-left">
                     <h2 class = "left-title">Achievements</h2>
                 </div>
-                <div class="contacts-right main-section achievements-layot" id="Achievements">
+                <div class="contacts-right main-section" id="Achievements">
                     <div class = "certificates">
                         <div class = "certificates__items">
                             <img class = "cert__img" src = "./assets/img/cert_efset.png" alt = "EF SET certificate">
-                            <p><a class = "body-links" href = "https://www.efset.org/cert/reYjvv" target="_blank">C1 EF SET Certificate</a></p>
+                            <p><a class = "body-links" href = "https://www.efset.org/cert/reYjvv" target="_blank">EF SET Certificate</a></p>
                         </div>
                         <div class = "certificates__items">
                             <img class = "cert__img" src = "./assets/img/cert_rsschool.png" alt = "RS School certificate">
-                            <p><a class = "body-links" href = "https://app.rs.school/certificate/cgqtroz9" target="_blank">RSSchool Stage 0 Certificate</a></p>
+                            <p><a class = "body-links" href = "https://app.rs.school/certificate/cgqtroz9" target="_blank">RSSchool Certificate</a></p>
                         </div>
                         <div class = "certificates__items">
                             <img class = "cert__img" src = "./assets/img/cert_stepik.png" alt = "Stepik online courses certificate">
-                            <p><a class = "body-links" href = "https://stepik.org/certificate/756e53216330284945e45bdf3ec116229277adf0.pdf" target="_blank">Stepik online courses Certificate</a></p>
+                            <p><a class = "body-links" href = "https://stepik.org/certificate/756e53216330284945e45bdf3ec116229277adf0.pdf" target="_blank">Stepik courses Certificate</a></p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class = "section">
+            <div class = "section section-two">
+                <div class="contacts-left">
+                    <h2 class = "left-title">Example of my code</h2>
+                </div>
+                <div class="contacts-right main-section" id="code">
+                    <div class = "code-ex">
+                    <pre><code class = "code-example">
+function collectAllNumbersInInterval(firstNumber, secondNumber) {
+let result = " ";
+    if (firstNumber &gt; secondNumber) {
+        for (let i = firstNumber; i &gt;= secondNumber; i--) {
+            result += firstNumber-- + " ";
+        }
+    } else if (secondNumber &gt; firstNumber) {
+        for (let i = secondNumber; i &gt;= firstNumber; i--) {
+            result += secondNumber-- + " ";
+        }
+    } else {
+        result = firstNumber;
+    }
+    return result;
+}
+                        </code></pre>
+                        </div>
+                    <pre><code class = "code-example">function stringOfPrimes(givenNumber) {
+    const sieveOfEratosthenes = [];
+    const result = [];
+    for (let i = 2; i &lt; givenNumber; i++) {
+        if (!sieveOfEratosthenes[i]) {
+            result.push(i);
+            for (let j = i * 2; j &lt; givenNumber; j += i) {
+                sieveOfEratosthenes[j] = true;
+            }
+        }
+    }
+    return result.join(" ");
+}</code></pre>
+<div class = "more-solutions">
+    More my solutions you can find &nbsp; <a class = "codewars__link" href = "https://www.codewars.com/users/aniskamaksim">here &nbsp;</a>
+    <img class = "codewars__img" src = "./assets/icons/62462c29f3165b55ea6255ea_light-text-logo-vertical.svg" href = "https://www.codewars.com/users/aniskamaksim"></div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
-<footer>
+<footer class = "footer">
+<div class = "footer-content">PDF printable version</div>
 </footer>
 </html>

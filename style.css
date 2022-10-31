@@ -1,3 +1,7 @@
+html {
+max-width: 1600px;
+}
+
 body {
   font-family: 'Roboto Flex', sans-serif;
   margin-top: 1%;
@@ -89,8 +93,8 @@ img {
   margin-top: 4%;
 }
 .avatar__img {
-  width: 200px;
-  height: 200px;
+  width: 15em;
+  height: 15em;
 }
 .contacts-right {
   display: flex;
@@ -164,32 +168,137 @@ color: purple;
 .contact-section {
   align-items: center;
 }
-.bycenter {
-  width: 33%;
-  height: 40%;
-  align-self: center;
-}
-.achievements-layot {
-  width: 75%;
+.circle-skills {
+  margin-top: 1%;
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  padding: 0;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.circle-skills__html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: orange;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+.circle-skills__html:hover {
+  background-color: darkorange;
+  border: 0.5px solid gray;
+  box-shadow: 1px 1px 0 gray;
+  color: gold;
+}
+.circle-skills__css {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: lightskyblue;
+  color: aliceblue;
+  text-transform: uppercase;
+}
+.circle-skills__css:hover {
+  background-color: blue;
+  border: 0.5px solid gray;
+  box-shadow: 1px 1px 0 gray;
+  color: gold;
+}
+.circle-skills__js {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 4rem;
+  height: 4rem;
+  background-color: yellow;
+  color: black;
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.circle-skills__js:hover {
+  background-color: yellowgreen;
+  border: 0.5px solid gray;
+  box-shadow: 1px 1px 0 gray;
+  color: gold;
+}
+.circle-skills__git {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  transform: rotate(45deg);
+  background-color: salmon;
+  color: black;
+}
+.circle-skills__git:hover {
+  background-color: brown;
+  border: 0.5px solid gray;
+  box-shadow: 1px 1px 0 gray;
+  color: gold;
+  transform: rotate(180deg);
+}
+.git-word {
+  text-transform: lowercase;
+  rotate: 315deg;
+  font-size: 2rem;
+  font-weight: bold;
 }
 .certificates {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .certificates__items {
+  width: 100%;
   display: flex;
   flex-direction: column;
-  padding-top: 5%;
-  margin-right: 10%;
+  padding-top: 2%;
+  align-items: center;
 }
 .cert__img {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   border: solid 1px darkgray;
   border-radius: 10px;
+}
+.code-example {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.code-ex {
+  width: 100%;
+  padding: 5px 5px 5px 5px;
+}
+.more-solutions {
+  margin-bottom: 2%;
+}
+.codewars__img {
+  width: 30px;
+  height: 35px;
+  cursor: pointer;
+}
+.more-solutions {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.footer {
+  border-radius: 10px;
+}
+.footer-content {
+  margin-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
 }
