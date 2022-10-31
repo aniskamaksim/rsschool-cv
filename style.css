@@ -205,9 +205,8 @@ color: purple;
   text-transform: uppercase;
 }
 .circle-skills__css:hover {
-  background-color: blue;
+  background-color: #00C8F0;
   border: 0.5px solid gray;
-  box-shadow: 1px 1px 0 gray;
   color: gold;
 }
 .circle-skills__js {
@@ -222,10 +221,9 @@ color: purple;
   font-size: 2rem;
 }
 .circle-skills__js:hover {
-  background-color: yellowgreen;
+  background-color: #FEDD00;
   border: 0.5px solid gray;
-  box-shadow: 1px 1px 0 gray;
-  color: gold;
+  color: aliceblue;
 }
 .circle-skills__git {
   display: flex;
@@ -240,9 +238,9 @@ color: purple;
 .circle-skills__git:hover {
   background-color: brown;
   border: 0.5px solid gray;
-  box-shadow: 1px 1px 0 gray;
   color: gold;
-  transform: rotate(180deg);
+  transform: rotate(210deg);
+  animation: infinite;
 }
 .git-word {
   text-transform: lowercase;
