@@ -300,3 +300,40 @@ color: purple;
   padding-bottom: 1%;
   text-align: center;
 }
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MEDIA REQUESTS~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media screen and (max-width: 1150px) {
+  h1 {
+    font-size: 36px;
+    font-weight: 400px;
+  }
+  h2 {
+    font-size: 24px;
+    font-weight: 300px;
+  }
+  h3 {
+    font-size: 16px;
+    font-weight: 300px;
+  }
+  .avatar__img {
+    width: 10em;
+    height: 10em;
+  }
+}
+@media screen and (max-width: 820px) {
+  h1 {
+    font-size: 24px;
+    font-weight: 400px;
+  }
+  h2 {
+    font-size: 18px;
+    font-weight: 300px;
+  }
+  h3 {
+    font-size: 12px;
+    font-weight: 300px;
+  }
+  .avatar__img {
+    width: 8em;
+    height: 8em;
+  }
+}
