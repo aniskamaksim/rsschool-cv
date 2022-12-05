@@ -12,14 +12,14 @@ Born in 1982. I am 40 this year.
 
 I started as a foreman of the plant site, then became a sales manager, head of the sales department, the last position was the deputy director of the company.
 
-I have my own business related to cargo transportation, which currently operates autonomously, without my participation.
+Until February 24 I had my own business related to cargo transportation. Now I'm here. No regrets.
 
-I am married and have a son, Matthew. This year he will be 2 years old.
+I am married and have a son, Matthew. He is 2.5 years old (turbo-diesel intercooler).
 
 My goal is to move with my family from Belarus.
 
 ## Skills
-I trying to do my best in HTML, CSS and JS to start Front-end career soon.
+I'm trying to do my best in HTML, CSS, JS, React, Redux, Node.js to start Front-end career soon. 
 
 I am well organized, structured, disciplined and motivated.
 
