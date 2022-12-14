@@ -52,23 +52,26 @@ img {
   align-items: center;
   justify-content: space-around;
   list-style-type: none;
+  font-size: 22px;
 }
 .nav-menu__link {
   color: inherit;
   text-decoration: none;
   transition: 1s;
   text-align: center;
+  border-bottom: #6bade6 solid 2px;
 }
 .nav-menu__link:hover {
   color: #669ac8;
   text-decoration: none;
   transform: scale(2);
+  border-bottom: none;
 }
 .nav-menu__item {
   transition: 200ms;
 }
 .nav-menu__item:hover {
-  transform: scale(1.2);
+  transform: scale(1.5);
 }
 /*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~MAIN BLOCK~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 .body-wrapper {
@@ -95,6 +98,8 @@ img {
   margin-top: 9%;
 }
 .title_position{
+  margin-top: 0;
+  margin-bottom: 0;
   display: flex;
   flex-direction: row;
   text-align: center;
@@ -104,8 +109,14 @@ img {
   height: 15em;
 }
 .first_class {
+  display: flex;
+  width: 100%;
   background-color: white !important;
   border: solid 2px #669ac8;
+}
+.avatar_space, .contacts_space {
+  display: flex;
+  width: 50%;
 }
 .contacts-right {
   display: flex;
@@ -425,3 +436,4 @@ display: flex;
     height: 40px;
   }
 }
+/*TODO: media screen and (max-width: 870px) => burger menu + fix code example  */
