@@ -20,6 +20,7 @@ a:hover {
 h1 {
   font-size: 48px;
   font-weight: 400;
+  margin-bottom: 0px;
 }
 h2 {
   font-size: 36px;
@@ -91,7 +92,12 @@ img {
   flex-direction: row;
   align-content: center;
   text-align: center;
-  margin-top: 4%;
+  margin-top: 9%;
+}
+.title_position{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
 }
 .avatar__img {
   width: 15em;
